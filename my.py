@@ -1,10 +1,7 @@
-a = int(input("a: "))
-
-b = int(input("b: "))
-
-c = int(input("c: "))
-
-
-print(a + b + c)
-
-print(a * b * c)
+try:
+    a = int(input("a: % "))
+    a = int(input("b: // "))
+    print(a%b)
+    print(a//b)
+except Exception as e:
+    print(e)
